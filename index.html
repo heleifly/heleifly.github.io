@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>pinkPig</title>
+  <title>flowerPig</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="start from zero">
 <meta property="og:type" content="website">
-<meta property="og:title" content="pinkPig">
+<meta property="og:title" content="flowerPig">
 <meta property="og:url" content="http://heleifly.com/index.html">
-<meta property="og:site_name" content="pinkPig">
+<meta property="og:site_name" content="flowerPig">
 <meta property="og:description" content="start from zero">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="pinkPig">
+<meta name="twitter:title" content="flowerPig">
 <meta name="twitter:description" content="start from zero">
   
-    <link rel="alternate" href="/atom.xml" title="pinkPig" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="flowerPig" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -37,11 +37,11 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">pinkPig</a>
+        <a href="/" id="logo">flowerPig</a>
       </h1>
       
         <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">fly</a>
+          <a href="/" id="subtitle">你的人生永远不会辜负你，转错的弯,走错的路,错过的人,流下的泪,滴过的汗,留的伤痕,都会让你成为独一无二的人！</a>
         </h2>
       
     </div>
@@ -72,7 +72,7 @@
     <article id="post-HashMap,LinkedHashMap,TreeMap" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/11/28/HashMap,LinkedHashMap,TreeMap/" class="article-date">
-  <time datetime="2017-11-28T06:35:47.000Z" itemprop="datePublished">2017-11-28</time>
+  <time datetime="2017-11-28T06:55:17.000Z" itemprop="datePublished">2017-11-28</time>
 </a>
     
   </div>
@@ -100,18 +100,12 @@
 </code></pre>c. put时,如果hash表中没定位到,就在链表前加一个Entry,如果定位到了,则更换Entry中的value,并返回旧value</li>
 <li>由于TreeMap需要排序,所以需要一个Comparator为键值进行大小比较.当然也是用Comparator定位的.<br>a. Comparator可以在创建TreeMap时指定<br>b. 如果创建时没有确定,那么就会使用key.compareTo()方法,这就要求key必须实现Comparable接口.<br>c. TreeMap是使用Tree数据结构实现的,所以使用compare接口就可以完成定位了.</li>
 </ol>
-<p>注意：<br>1、Collection没有get()方法来取得某个元素。只能通过iterator()遍历元素。<br>2、Set和Collection拥有一模一样的接口。<br>3、List，可以通过get()方法来一次取出一个元素。使用数字来选择一堆对象中的一个，get(0)…。(add/get)<br>4、一般使用ArrayList。用LinkedList构造堆栈stack、队列queue。<br>5、Map用 put(k,v) / get(k)，还可以使用containsKey()/containsValue()来检查其中是否含有某个key/value。<br>      HashMap会利用对象的hashCode来快速找到key。 </p>
-<pre><code>*     hashing 
-      哈希码就是将对象的信息经过一些转变形成一个独一无二的int值，这个值存储在一个array中。 
-      我们都知道所有存储结构中，array查找速度是最快的。所以，可以加速查找。 
-
-      发生碰撞时，让array指向多个values。即，数组每个位置上又生成一个梿表。 
-</code></pre><p>6、Map中元素，可以将key序列、value序列单独抽取出来。<br>使用keySet()抽取key序列，将map中的所有keys生成一个Set。<br>使用values()抽取value序列，将map中的所有values生成一个Collection。<br>为什么一个生成Set，一个生成Collection？那是因为，key总是独一无二的，value允许重复。 </p>
+<p>注意：<br>1、Collection没有get()方法来取得某个元素。只能通过iterator()遍历元素。<br>2、Set和Collection拥有一模一样的接口。<br>3、List，可以通过get()方法来一次取出一个元素。使用数字来选择一堆对象中的一个，get(0)…。(add/get)<br>4、一般使用ArrayList。用LinkedList构造堆栈stack、队列queue。<br>5、Map用 put(k,v) / get(k)，还可以使用containsKey()/containsValue()来检查其中是否含有某个key/value。<br>    HashMap会利用对象的hashCode来快速找到key。<br>    hashing<br>    哈希码就是将对象的信息经过一些转变形成一个独一无二的int值，这个值存储在一个array中。<br>    我们都知道所有存储结构中，array查找速度是最快的。所以，可以加速查找。<br>    发生碰撞时，让array指向多个values。即，数组每个位置上又生成一个梿表。<br>6、Map中元素，可以将key序列、value序列单独抽取出来。<br>使用keySet()抽取key序列，将map中的所有keys生成一个Set。<br>使用values()抽取value序列，将map中的所有values生成一个Collection。<br>为什么一个生成Set，一个生成Collection？那是因为，key总是独一无二的，value允许重复。 </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://heleifly.com/2017/11/28/HashMap,LinkedHashMap,TreeMap/" data-id="cjaj9fsg900005qs6qxm002k3" class="article-share-link">Share</a>
+      <a data-url="http://heleifly.com/2017/11/28/HashMap,LinkedHashMap,TreeMap/" data-id="cjakgotu00000fws6bdffm89q" class="article-share-link">Share</a>
       
       
     </footer>
@@ -156,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://heleifly.com/2017/11/27/hello-world/" data-id="cjaj9fsgc00015qs62606rwao" class="article-share-link">Share</a>
+      <a data-url="http://heleifly.com/2017/11/27/hello-world/" data-id="cjakgotu90001fws6djr008po" class="article-share-link">Share</a>
       
       
     </footer>
@@ -215,7 +209,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 BigST<br>
+      &copy; 2017 只不过<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
