@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>flowerPig</title>
+  <title>FlowerPig</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://heleifly.com/"/>
-  <updated>2017-12-08T02:35:23.000Z</updated>
+  <updated>2017-12-08T06:49:50.000Z</updated>
   <id>http://heleifly.com/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1320</title>
+    <link href="http://heleifly.com/2017/12/08/1320/"/>
+    <id>http://heleifly.com/2017/12/08/1320/</id>
+    <published>2017-12-08T06:49:50.000Z</published>
+    <updated>2017-12-08T06:49:50.000Z</updated>
+    
+    <summary type="html">
+    
+      1320其实不知道怎么定义比较好
+    
+    </summary>
+    
+      <category term="life7788" scheme="http://heleifly.com/categories/life7788/"/>
+    
+    
+      <category term="hexo" scheme="http://heleifly.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo文章简单加密访问</title>
     <link href="http://heleifly.com/2017/12/08/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/"/>
     <id>http://heleifly.com/2017/12/08/文章加密/</id>
-    <published>2017-12-08T02:35:23.000Z</published>
-    <updated>2017-12-08T02:35:23.000Z</updated>
+    <published>2017-12-08T06:49:50.000Z</published>
+    <updated>2017-12-08T06:49:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>刚刚接触hexo不久，也是因为最近比较闲一点，才有空闲时间研究，很多东西越研究越有趣，通过查看资料和根据自己的摸索实践之后，发现可以密码访问自己写的文章，下面就是我自己方法。</p><p>原理<br>原理很简单就是利用js的阻塞机制，比如在某一页面有alert()的时候，整个页面都会停止运行，直到你点击确定以后，页面的代码将会继续执行下去。so我就利用这样的假象去阻止页面的渲染，直到输入正确的密码才可以渲染。alert只有提示功能，没有输入功能。根据查询资料可以用promt函数</p><p>var password = promt(‘请输入文章密码’);<br>alert(password);<br>上代码<br>找到themes-&gt;next-&gt;layout-&gt;_partials-&gt;head.swig文件。<br>按道理是添加在任何地方都行</p><p><script><br>    (function(){<br>        if(‘‘){<br>            if (prompt(‘请输入文章密码’,’’) !== ‘‘){<br>                alert(‘密码错误！’);<br>                history.back();<br>            }<br>        }<br>    })();<br></script><br>如果你好奇page.password是什么东西，那么恭喜你，你对 Hexo 的结构还是很熟悉的。page这个变量就是你在hexo new的时候生成文件中最顶部的东西，以下我给出这篇文章的头部参考：</p><hr><p>title: Hexo文章简单加密访问<br>tags: hexo<br>categories: “upUping”<br>description: 文章访问密码：mima</p><h2 id="password-mima"><a href="#password-mima" class="headerlink" title="password: mima"></a>password: mima</h2><p>做的本来只是表象，属于自娱自乐</p>]]></content>
     
@@ -32,26 +52,6 @@
     </summary>
     
       <category term="upUping" scheme="http://heleifly.com/categories/upUping/"/>
-    
-    
-      <category term="hexo" scheme="http://heleifly.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1320</title>
-    <link href="http://heleifly.com/2017/12/08/1320/"/>
-    <id>http://heleifly.com/2017/12/08/1320/</id>
-    <published>2017-12-08T02:25:20.000Z</published>
-    <updated>2017-12-08T02:25:20.000Z</updated>
-    
-    <summary type="html">
-    
-      1320其实不知道怎么定义比较好
-    
-    </summary>
-    
-      <category term="life7788" scheme="http://heleifly.com/categories/life7788/"/>
     
     
       <category term="hexo" scheme="http://heleifly.com/tags/hexo/"/>
