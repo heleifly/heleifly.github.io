@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://heleifly.com/"/>
-  <updated>2017-12-08T08:27:32.000Z</updated>
+  <updated>2017-12-11T08:33:18.000Z</updated>
   <id>http://heleifly.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mac的一些快捷键</title>
+    <link href="http://heleifly.com/2017/12/11/Mac%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://heleifly.com/2017/12/11/Mac的快捷键/</id>
+    <published>2017-12-11T08:33:18.000Z</published>
+    <updated>2017-12-11T08:33:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="MAC的快捷键的用法："><a href="#MAC的快捷键的用法：" class="headerlink" title="MAC的快捷键的用法："></a>MAC的快捷键的用法：</h2><hr><a id="more"></a><blockquote><h3 id="基本快捷键："><a href="#基本快捷键：" class="headerlink" title="基本快捷键："></a>基本快捷键：</h3></blockquote><pre><code>Command-Z 撤销　Command-X 剪切　　Command-C 拷贝（Copy）　　Command-V 粘贴　　Command-A 全选（All）　　Command-S 保存（Save)　　Command-F 查找（Find）</code></pre><blockquote><h3 id="截图："><a href="#截图：" class="headerlink" title="截图："></a>截图：</h3></blockquote><pre><code>Command-Shift-4 截取所选屏幕区域到一个文件　　Command-Shift-3 截取全部屏幕到文件　　Command-Shift-Control-3 截取全部屏幕到剪贴板　　Command-Shift-4 截取所选屏幕区域到一个文件，或按空格键仅捕捉一个窗口　　Command-Shift-Control-4 截取所选屏幕区域到剪贴板，或按空格键仅捕捉一个窗</code></pre><blockquote><h3 id="在应用程序中："><a href="#在应用程序中：" class="headerlink" title="在应用程序中："></a>在应用程序中：</h3></blockquote><pre><code>Command-Option-esc 打开强制退出窗口　　Command-H 隐藏（Hide）当前正在运行的应用程序窗口　　Command-Option-H 隐藏（Hide）其他应用程序窗口　　Command-Q 退出（Quit）最前面的应用程序　　Command-Shift-Z 重做，也就是撤销的逆向操作　　Command-Tab 在打开的应用程序列表中转到下一个最近使用的应用程序，相当于Windows中（Alt+Tab）　　Command-Option-esc 打开“强制退出”窗口，如果有应用程序无响应，可在窗口列表中选择强制退出</code></pre><blockquote><h3 id="idea中的快捷键："><a href="#idea中的快捷键：" class="headerlink" title="idea中的快捷键："></a>idea中的快捷键：</h3></blockquote><pre><code>alt+f7查找在哪里使用 相当于eclipse的ctrl+shift+Gcommand+alt+f7 这个是查找选中的字符在工程中出现的地方，可以不是方法变量类等，这个和上面的有区别的command＋F7可以查询当前元素在当前文件中的引用，然后按F3可以选择 ，功能基本同上选中文本，按command+shift+F7 ，高亮显示所有该文本，按Esc高亮消失。选中文本，按Alt+F3 ，逐个往下查找相同文本，并高亮显示。shift+f3就是往上找ctrl+enter 出现生成get,set方法的界面shift+enter 换到下一行command+N 查找类command+shift+N 查找文件command+R 替换ctrl+shift+R 可以在整个工程或着某个目录下面替换变量command+Y 删除行command+D复制一行ctrl+shift+J 把多行连接成一行，会去掉空格的行command+J 可以生成一些自动代码，比如for循环command+B 找变量的来源  同F4   查找变量来源ctrl+shift+B 找变量所属的类command+G定位command+F 在当前文件里查找文本 f3向下看，shift+f3向上看ctrl+shift+F  可以在整个工程或着某个目录下面查找变量   相当于eclipse里的ctrl+Halt+shift+C 最近修改的文件command+E最近打开的文件alt+enter 导入包，自动修改command+alt+L 格式化代码command+alt+I 自动缩进，不用多次使用tab或着backspace键，也是比较方便的ctrl+shift+space代码补全，这个会判断可能用到的，这个代码补全和代码提示是不一样的command+P 方法参数提示command+alt+T 把选中的代码放在 TRY{} IF{} ELSE{} 里command+X剪切删除行command+shift+V 可以复制多个文本command+shift+U 大小写转换alt+f1查找文件所在目录位置command+/ 注释一行或着多行 //ctrl+shift+/ 注释/*...*/command+alt+左右箭头 返回上次编辑的位置shift+f6重命名command+shift+上下箭头 把代码上移或着下移command+[或]  可以跳到大括号的开头结尾command+f12可以显示当前文件的结构command+alt+B 可以导航到一个抽象方法的实现代码command+shift+小键盘的*  列编辑alt+f8 debug时选中查看值f8相当于eclipse的f6跳到下一步shift+f8相当于eclipse的f8跳到下一个断点，也相当于eclipse的f7跳出函数f7相当于eclipse的f5就是进入到代码alt+shift+f7这个是强制进入代码ctrl+shift+f9 debug运行java类ctrl+shift+f10正常运行java类command+f2停止运行</code></pre><p>  用mac有一段时间了，自己结合网上一些罗列出一些常用的快捷键。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;MAC的快捷键的用法：&quot;&gt;&lt;a href=&quot;#MAC的快捷键的用法：&quot; class=&quot;headerlink&quot; title=&quot;MAC的快捷键的用法：&quot;&gt;&lt;/a&gt;MAC的快捷键的用法：&lt;/h2&gt;&lt;hr&gt;
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://heleifly.com/categories/Mac/"/>
+    
+    
+      <category term="Mac" scheme="http://heleifly.com/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo文章简单加密访问</title>
-    <link href="http://heleifly.com/2017/12/08/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/"/>
-    <id>http://heleifly.com/2017/12/08/文章加密/</id>
-    <published>2017-12-08T08:27:32.000Z</published>
-    <updated>2017-12-08T08:27:32.000Z</updated>
+    <link href="http://heleifly.com/2017/12/11/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/"/>
+    <id>http://heleifly.com/2017/12/11/文章加密/</id>
+    <published>2017-12-11T06:10:36.000Z</published>
+    <updated>2017-12-11T06:10:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>刚刚接触hexo不久，也是因为最近比较闲一点，才有空闲时间研究，很多东西越研究越有趣，通过查看资料和根据自己的摸索实践之后，发现可以密码访问自己写的文章，下面就是我自己方法。</p><p>原理<br>原理很简单就是利用js的阻塞机制，比如在某一页面有alert()的时候，整个页面都会停止运行，直到你点击确定以后，页面的代码将会继续执行下去。so我就利用这样的假象去阻止页面的渲染，直到输入正确的密码才可以渲染。alert只有提示功能，没有输入功能。根据查询资料可以用promt函数</p><p>var password = promt(‘请输入文章密码’);<br>alert(password);<br>上代码<br>找到themes-&gt;next-&gt;layout-&gt;_partials-&gt;head.swig文件。<br>按道理是添加在任何地方都行</p><hr><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">(<span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line"><span class="keyword">if</span>(<span class="string">'&#123;&#123; page.password &#125;&#125;'</span>)&#123;</span><br><span class="line"><span class="keyword">if</span> (prompt(<span class="string">'请输入文章密码'</span>,<span class="string">''</span>) !== <span class="string">'&#123;&#123; page.password &#125;&#125;'</span>)&#123;</span><br><span class="line">alert(<span class="string">'密码错误！'</span>);</span><br><span class="line">history.back();</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><hr><p>如果你好奇page.password是什么东西，那么恭喜你，你对 Hexo 的结构还是很熟悉的。page这个变量就是你在hexo new的时候生成文件中最顶部的东西，以下我给出这篇文章的头部参考：</p><hr><pre><code class="bash">title: Hexo文章简单加密访问tags: hexocategories: <span class="string">"upUping"</span>description: 文章访问密码：mimapassword: mima</code></pre><hr><p>做的本来只是表象，属于自娱自乐</p>]]></content>
     
@@ -34,7 +57,7 @@
       <category term="upUping" scheme="http://heleifly.com/categories/upUping/"/>
     
     
-      <category term="hexo" scheme="http://heleifly.com/tags/hexo/"/>
+      <category term="笔记" scheme="http://heleifly.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -42,10 +65,10 @@
     <title>1320</title>
     <link href="http://heleifly.com/2017/12/08/1320/"/>
     <id>http://heleifly.com/2017/12/08/1320/</id>
-    <published>2017-12-08T08:19:36.000Z</published>
-    <updated>2017-12-08T08:19:36.000Z</updated>
+    <published>2017-12-08T09:48:07.000Z</published>
+    <updated>2017-12-08T09:48:07.000Z</updated>
     
-    <content type="html"><![CDATA[<hr><h3 id="故事开始的时候"><a href="#故事开始的时候" class="headerlink" title="故事开始的时候"></a>故事开始的时候</h3><p>搭建好了这bolg这么久了，之前是在有道云笔记上面记录自己遇到过的一些问题。本着拿这记录些笔记和生活趣事和自己的突发奇想。1320其实就是距离。</p><hr>]]></content>
+    <content type="html"><![CDATA[<hr><h3 id="好戏开场了"><a href="#好戏开场了" class="headerlink" title="好戏开场了"></a>好戏开场了</h3><p>搭建好了这bolg这么久了，之前是在有道云笔记上面记录自己遇到过的一些问题。本着拿这记录些笔记和生活趣事和自己的突发奇想。1320其实就是距离。</p><hr>]]></content>
     
     <summary type="html">
     
